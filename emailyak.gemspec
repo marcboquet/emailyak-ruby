@@ -13,10 +13,11 @@ Gem::Specification.new do |s|
     "README.markdown",
     "VERSION",
     "emailyak.gemspec",
-    "lib/emailyak.rb"
+    "lib/emailyak.rb",
+    "lib/emailyak/rails.rb"
 
   ]
-  s.homepage = %q{http://github.com/apalancat/emailyak}
+  s.homepage = %q{http://github.com/apalancat/emailyak-ruby}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Email Yak (emailyak.com) library}
